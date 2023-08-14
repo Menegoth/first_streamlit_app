@@ -47,4 +47,5 @@ streamlit.dataframe(my_data_rows)
 
 #allow user to add
 add_my_fruit = streamlit.text_input("Pick a fruit", "Guava")
-streamlit.text(add_my_fruit)
+if text_input
+  streamlit.text(add_my_fruit)

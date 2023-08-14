@@ -48,4 +48,4 @@ streamlit.dataframe(my_data_rows)
 #allow user to add
 add_my_fruit = streamlit.text_input("Pick a fruit")
 if add_my_fruit:
-  streamlit.text(add_my_fruit)
+    my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('" + add_my_fruit + "')")

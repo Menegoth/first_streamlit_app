@@ -47,3 +47,4 @@ streamlit.dataframe(my_data_rows)
 
 #allow user to add
 add_my_fruit = streamlit.selectbox("Pick a fruit")
+streamlit.text(add_my_fruit)
